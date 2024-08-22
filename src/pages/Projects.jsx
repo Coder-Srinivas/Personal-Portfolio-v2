@@ -147,7 +147,7 @@ const ProjectItem = ({ img, desc, title, technologies, alt, link }) => {
 export const Projects = () => {
     const projects = [
         {
-            img: '/ipl-auction.png',
+            img: '/Personal-Portfolio-v2/ipl-auction.png',
             desc: 'An application built by using: 1) RSS feeds to fetch the news. 2) Web Scraping to get the squad data. Used the RS256 algorithm and HTTP-only cookie to sign and store the JSON web token securely.',
             title: 'IPL AUCTION',
             technologies: [
@@ -161,7 +161,7 @@ export const Projects = () => {
             link: 'https://github.com/Coder-Srinivas/Ipl-Auction',
         },
         {
-            img: '/pixplate.png',
+            img: '/Personal-Portfolio-v2/pixplate.png',
             desc: 'An Innovative app providing personalized recipes based on dietary needs. Users can select products or upload fridge photos. Utilizes TensorFlow for object detection and LLMs for tailored context - based recommendations based on liked recipes.',
             title: 'PIX PLATE',
             technologies: [
@@ -177,7 +177,7 @@ export const Projects = () => {
             link: 'https://github.com/Coder-Srinivas/PixPlate',
         },
         {
-            img: '/annonimity.png',
+            img: '/Personal-Portfolio-v2/annonimity.png',
             desc: 'Worried about your privacy? Well, cometh the hour cometh the app, Annonimity. Annonimity is a chat application which allows users to chat with others while staying anonymous. Get to know other without revealing your true self.',
             title: 'ANNONIMITY',
             technologies: [
@@ -190,7 +190,7 @@ export const Projects = () => {
             link: 'https://github.com/Coder-Srinivas/Annonimity',
         },
         {
-            img: '/melasma.png',
+            img: '/Personal-Portfolio-v2/melasma.png',
             desc: 'Melasma is a serious skin condition characterized by facial pigmentation, often affecting darker-skinned individuals. This paper aims to compare different neural network techniques to identify the most effective approach for addressing melasma.',
             title: 'MELASMA DETECTION',
             technologies: [

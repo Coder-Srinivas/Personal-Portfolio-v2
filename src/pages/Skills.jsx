@@ -63,121 +63,121 @@ const SkillSection = ({ title, data, alt }) => {
 export const Skills = () => {
     const frontend = [
         {
-            img: '/react.svg',
+            img: '/Personal-Portfolio-v2/react.svg',
             text: 'React',
         },
         {
-            img: '/typescript.svg',
+            img: '/Personal-Portfolio-v2/typescript.svg',
             text: 'TypeScript',
         },
         {
-            img: '/javascript.svg',
+            img: '/Personal-Portfolio-v2/javascript.svg',
             text: 'JavaScript',
         },
         {
-            img: '/jest.svg',
+            img: '/Personal-Portfolio-v2/jest.svg',
             text: 'Jest',
         },
     ];
 
     const backend = [
         {
-            img: '/nodejs.svg',
+            img: '/Personal-Portfolio-v2/nodejs.svg',
             text: 'Node.js',
         },
         {
-            img: '/ruby.svg',
+            img: '/Personal-Portfolio-v2/ruby.svg',
             text: 'Ruby',
         },
         {
-            img: '/express.svg',
+            img: '/Personal-Portfolio-v2/express.svg',
             text: 'Express.js',
         },
         {
-            img: '/graphql.svg',
+            img: '/Personal-Portfolio-v2/graphql.svg',
             text: 'Graph QL',
         },
         {
-            img: '/rest.svg',
+            img: '/Personal-Portfolio-v2/rest.svg',
             text: "REST API'S",
         },
     ];
 
     const databases = [
         {
-            img: '/mongodb.svg',
+            img: '/Personal-Portfolio-v2/mongodb.svg',
             text: 'MongoDB',
         },
         {
-            img: '/sql.svg',
+            img: '/Personal-Portfolio-v2/sql.svg',
             text: 'SQL',
         },
     ];
 
     const devOps = [
         {
-            img: '/kubernetes.svg',
+            img: '/Personal-Portfolio-v2/kubernetes.svg',
             text: 'Kubernetes',
         },
         {
-            img: '/docker.svg',
+            img: '/Personal-Portfolio-v2/docker.svg',
             text: 'Docker',
         },
     ];
 
     const development = [
         {
-            img: '/git.svg',
+            img: '/Personal-Portfolio-v2/git.svg',
             text: 'Git',
         },
         {
-            img: '/aws.svg',
+            img: '/Personal-Portfolio-v2/aws.svg',
             text: 'AWS',
         },
         {
-            img: '/java.svg',
+            img: '/Personal-Portfolio-v2/java.svg',
             text: 'Java',
         },
         {
-            img: '/python.svg',
+            img: '/Personal-Portfolio-v2/python.svg',
             text: 'Python',
         },
         {
-            img: '/oop.svg',
+            img: '/Personal-Portfolio-v2/oop.svg',
             text: 'OOP',
         },
         {
-            img: '/puppeteer.svg',
+            img: '/Personal-Portfolio-v2/puppeteer.svg',
             text: 'Puppeteer',
         },
     ];
 
     const coding = [
         {
-            img: '/codechef.svg',
+            img: '/Personal-Portfolio-v2/codechef.svg',
             text: '4 star Codechef',
         },
         {
-            img: '/leetcode.svg',
+            img: '/Personal-Portfolio-v2/leetcode.svg',
             text: '1852 @ Leetcode',
         },
     ];
 
     const ml = [
         {
-            img: '/tensorflow.svg',
+            img: '/Personal-Portfolio-v2/tensorflow.svg',
             text: 'Tensorflow',
         },
         {
-            img: '/numpy.svg',
+            img: '/Personal-Portfolio-v2/numpy.svg',
             text: 'Numpy',
         },
         {
-            img: '/pandas.svg',
+            img: '/Personal-Portfolio-v2/pandas.svg',
             text: 'Pandas',
         },
         {
-            img: '/nlp.svg',
+            img: '/Personal-Portfolio-v2/nlp.svg',
             text: 'NLP',
         },
     ];

@@ -65,7 +65,7 @@ export const About = () => {
                         }}
                     >
                         <img
-                            src="./headshot-no-bg.png"
+                            src="/Personal-Portfolio-v2/headshot-no-bg.png"
                             style={{
                                 width: '100%',
                                 bottom: '-10%',
