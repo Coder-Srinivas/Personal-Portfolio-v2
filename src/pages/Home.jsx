@@ -110,7 +110,7 @@ export const Home = () => {
                         <LinkedInIcon
                             onClick={() => {
                                 window.open(
-                                    'https://www.linkedin.com/in/srinivas-mulagala-298764191/',
+                                    'https://www.linkedin.com/in/srinivas-mulagala/',
                                     '_blank',
                                 );
                             }}
