@@ -156,7 +156,7 @@ export const Qualifications = () => {
             title: 'Software Development Intern',
             subtitle: 'OpenStax',
             duration: 'June 2024 - Present',
-            desc: 'Led the development and deployment of a community-based web application, delivering a functional prototype within a 3-month timeframe. Managed the full software development lifecycle, from requirement gathering through to deployment and maintenance.',
+            desc: 'Optimized the learner study section by redesigning the code architecture, resulting in reduced page load times from 20 seconds to 2 seconds; this enhancement increased user satisfaction scores and platform retention by 20%.',
         },
         {
             title: 'Research Scientist',

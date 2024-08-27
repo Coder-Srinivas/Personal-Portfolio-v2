@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Stack, Typography, Box } from '@mui/material';
-import { colors } from '@utilities';
-import { Title } from '@components';
-import { AnimatedInView } from '@components';
-import { CallReceived } from '@mui/icons-material';
+import React, { useState } from "react";
+import { Stack, Typography, Box } from "@mui/material";
+import { colors } from "@utilities";
+import { Title } from "@components";
+import { AnimatedInView } from "@components";
+import { CallReceived } from "@mui/icons-material";
 
 export const About = () => {
     const [isHover, setHover] = useState(false);
@@ -12,6 +12,7 @@ export const About = () => {
             id="about"
             direction="row"
             alignItems="center"
+            justifyContent="flex-start"
             height="95vh"
             width="100%"
             gap={15}
@@ -19,28 +20,28 @@ export const About = () => {
         >
             <Stack
                 position="absolute"
-                top="30%"
-                left="25rem"
+                top="15rem"
+                left="20rem"
                 justifyContent="flex-start"
                 alignItems="flex-start"
             >
-                {' '}
+                {" "}
                 <AnimatedInView
                     transitionProps={{
-                        type: 'spring',
+                        type: "spring",
                         stiffness: 100,
-                        ease: 'linear',
+                        ease: "linear",
                     }}
                 >
-                    <Typography marginLeft={3}>Hover Over Me</Typography>{' '}
-                    <CallReceived />{' '}
+                    <Typography marginLeft={3}>Hover Over Me</Typography>{" "}
+                    <CallReceived />{" "}
                 </AnimatedInView>
             </Stack>
             <AnimatedInView
                 transitionProps={{
-                    type: 'spring',
+                    type: "spring",
                     stiffness: 100,
-                    ease: 'linear',
+                    ease: "linear",
                 }}
             >
                 <Stack position="relative" marginTop="-5rem">
@@ -53,9 +54,9 @@ export const About = () => {
                         overflow="hidden"
                         width="25rem"
                         sx={{
-                            aspectRatio: '1/1.1',
-                            transition: 'transform 500ms ease',
-                            transform: isHover ? 'scale(1.1)' : 'scale(1)',
+                            aspectRatio: "1/1.1",
+                            transition: "transform 500ms ease",
+                            transform: isHover ? "scale(1.1)" : "scale(1)",
                         }}
                         onMouseOver={() => {
                             setHover(true);
@@ -67,31 +68,31 @@ export const About = () => {
                         <img
                             src="/Personal-Portfolio-v2/headshot-no-bg.png"
                             style={{
-                                width: '100%',
-                                bottom: '-10%',
-                                position: 'relative',
-                                display: 'block',
-                                zIndex: '2',
+                                width: "100%",
+                                bottom: "-10%",
+                                position: "relative",
+                                display: "block",
+                                zIndex: "2",
                                 transition:
-                                    'transform 500ms ease, filter 500ms ease-in',
-                                filter: isHover ? 'none' : 'grayscale(1)',
+                                    "transform 500ms ease, filter 500ms ease-in",
+                                filter: isHover ? "none" : "grayscale(1)",
                                 transform: isHover
-                                    ? 'translateY(-12%)'
-                                    : 'translateY(0)',
+                                    ? "translateY(-12%)"
+                                    : "translateY(0)",
                             }}
                         />
 
                         <div
                             style={{
-                                width: '100%',
-                                height: '90%',
-                                bottom: '-10%',
-                                position: 'absolute',
-                                objectFit: 'cover',
-                                borderRadius: '50%',
-                                aspectRatio: '1/1',
-                                transform: 'scale(0.95)',
-                                transition: 'all 500ms ease',
+                                width: "100%",
+                                height: "90%",
+                                bottom: "-10%",
+                                position: "absolute",
+                                objectFit: "cover",
+                                borderRadius: "50%",
+                                aspectRatio: "1/1",
+                                transform: "scale(0.95)",
+                                transition: "all 500ms ease",
                                 backgroundColor: isHover
                                     ? colors.tertiary
                                     : colors.secondary,
@@ -101,7 +102,7 @@ export const About = () => {
                 </Stack>
             </AnimatedInView>
 
-            <Stack justifyContent="space-between" gap={10}>
+            <Stack justifyContent="space-between" gap={10} textAlign="justify">
                 <AnimatedInView
                     animationProps={{ x: 0 }}
                     initialProps={{ x: 100, opacity: 0 }}
@@ -112,17 +113,39 @@ export const About = () => {
                     animationProps={{ x: 0 }}
                     initialProps={{ x: 100, opacity: 0 }}
                 >
-                    <Typography textAlign={'justify'}>
+                    <Typography>
                         I'm a versatile software developer with expertise in
-                        Machine Learning and Full Stack Development. My
-                        experience includes optimizing APIs, enhancing web
-                        application performance, creating pixel perfect
-                        components, designing full stack applications and many
-                        more. I'm currently pursuing a Master's in Computer
-                        Science at Rice University, and my passion for
-                        problem-solving extends to competitive coding. I'm
-                        excited to contribute my skills and drive to any
-                        technology project.
+                        Full Stack Development and Machine Learning, blending
+                        technical proficiency with a deep curiosity for software
+                        development. My coding journey began with a fascination
+                        for how things work, which naturally led me to explore
+                        and master various technologies. Over the years, I’ve
+                        developed a knack for optimizing APIs, enhancing web
+                        application performance, and creating insightful
+                        technical content.
+                    </Typography>
+                    <br />
+                    <Typography>
+                        Currently, I’m pursuing a Master’s in Computer Science
+                        at Rice University. and My passion for Software
+                        Development extends into competitive coding, where I
+                        enjoy pushing my limits and refining my skills.
+                    </Typography>
+                    <br />
+                    <Typography>
+                        Outside of my academic and professional pursuits, I
+                        maintain a balanced lifestyle by staying active through
+                        regular workouts. I believe that physical fitness
+                        sharpens my mental focus, helping me approach coding
+                        challenges with a fresh perspective. This balance
+                        between physical and mental activities fuels both my
+                        creativity and productivity.
+                    </Typography>
+                    <br />
+                    <Typography>
+                        I'm always eager to connect with like-minded
+                        professionals, explore new opportunities, and continue
+                        growing in my career.
                     </Typography>
                 </AnimatedInView>
             </Stack>

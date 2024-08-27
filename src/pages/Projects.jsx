@@ -148,7 +148,7 @@ export const Projects = () => {
     const projects = [
         {
             img: '/Personal-Portfolio-v2/ipl-auction.png',
-            desc: 'An application built by using: 1) RSS feeds to fetch the news. 2) Web Scraping to get the squad data. Used the RS256 algorithm and HTTP-only cookie to sign and store the JSON web token securely.',
+            desc: 'Engineered a sophisticated MERN Stack Application simulating the dynamics of an IPL Auction, encompassing complex technical components. Employed advanced techniques, including RSS feed integration for real-time news retrieval.',
             title: 'IPL AUCTION',
             technologies: [
                 'React',
@@ -162,7 +162,7 @@ export const Projects = () => {
         },
         {
             img: '/Personal-Portfolio-v2/pixplate.png',
-            desc: 'An Innovative app providing personalized recipes based on dietary needs. Users can select products or upload fridge photos. Utilizes TensorFlow for object detection and LLMs for tailored context - based recommendations based on liked recipes.',
+            desc: 'Developed a Generative AI application utilizing the MERN stack providing users with the flexibility to upload photos of a fridge to generate recipes. Utilized Large Language Models (LLMs) and TensorFlow’s Recommender API.',
             title: 'PIX PLATE',
             technologies: [
                 'Generate AI',
