@@ -163,7 +163,7 @@ export const Home = () => {
                     >
                         <AssignmentIcon
                             onClick={() => {
-                                window.open('/Srinivas_Mulagala.pdf', '_blank');
+                                window.open('/Personal-Portfolio-v2/Srinivas_Mulagala.pdf', '_blank');
                             }}
                             sx={{
                                 fontSize: '2rem',
